@@ -124,6 +124,12 @@
       "watchedUserId": 3,
       "watch": true,
       "id": 8
+    },
+    {
+      "userId": 1,
+      "watchedUserId": 5,
+      "watch": false,
+      "id": 10
     }
   ],
   "usersEvents": [
@@ -296,21 +302,6 @@
       "eventId": 8,
       "userId": 4,
       "id": 84
-    },
-    {
-      "eventId": 13,
-      "userId": 1,
-      "id": 85
-    },
-    {
-      "eventId": 12,
-      "userId": 1,
-      "id": 86
-    },
-    {
-      "eventId": 10,
-      "userId": 1,
-      "id": 87
     }
   ]
 }
