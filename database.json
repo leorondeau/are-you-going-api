@@ -59,6 +59,12 @@
       "password": "defgoing",
       "name": "Jess",
       "id": 10
+    },
+    {
+      "email": "newuser@gmail.com",
+      "password": "test",
+      "name": "newuser5",
+      "id": 11
     }
   ],
   "events": [
@@ -87,7 +93,7 @@
       "id": 10
     },
     {
-      "name": "Jonas Brothers",
+      "name": "The Jankies",
       "location": "Cobra",
       "startDate": "2021-01-31T22:00",
       "details": "Three brothers sing pop",
@@ -109,6 +115,22 @@
       "details": "Dancing country",
       "userId": 5,
       "id": 13
+    },
+    {
+      "name": "Rod Poitra and the Space Trip to Nowhere",
+      "location": "The Tap",
+      "startDate": "2021-02-14T20:00",
+      "details": "Chupta cuz",
+      "userId": 1,
+      "id": 14
+    },
+    {
+      "name": "Brennen Leigh",
+      "location": "Roberts Western World",
+      "startDate": "2021-02-17T21:52",
+      "details": "honkytonk hell yeah",
+      "userId": 1,
+      "id": 15
     }
   ],
   "messages": [],
@@ -127,9 +149,15 @@
     },
     {
       "userId": 1,
-      "watchedUserId": 5,
-      "watch": false,
-      "id": 10
+      "watchedUserId": 9,
+      "watch": true,
+      "id": 9
+    },
+    {
+      "id": 10,
+      "userId": 1,
+      "watchedUserId": 4,
+      "watch": true
     }
   ],
   "usersEvents": [
@@ -302,6 +330,16 @@
       "eventId": 8,
       "userId": 4,
       "id": 84
+    },
+    {
+      "eventId": 9,
+      "userId": 1,
+      "id": 87
+    },
+    {
+      "eventId": 10,
+      "userId": 1,
+      "id": 89
     }
   ]
 }
